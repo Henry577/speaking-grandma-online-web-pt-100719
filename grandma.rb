@@ -14,5 +14,12 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  p "I LOVE YOU TOO PUMPKIN!"
+  
+  if phrase == phrase.upper
+    
+    p "I LOVE YOU TOO PUMPKIN!"
+  
+  else
+    
+    p "HUH?! SPEAK UP, SONNY!"
 end
